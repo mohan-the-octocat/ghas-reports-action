@@ -23,7 +23,7 @@ jobs:
           npm install
 
       # Runs a single command using the runners shell
-      - uses: advanced-security/ghas-reports-action@main
+      - uses: mohan-the-octocat/ghas-reports-action@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
