@@ -1,4 +1,4 @@
-name: Test
+name: Export Alerts
 
 on:
   workflow_dispatch:
