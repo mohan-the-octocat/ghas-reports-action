@@ -22,7 +22,7 @@ jobs:
           repo: 'dsp-testing/ghas-intro-6'
           # optionally define repo (default is calling repo)
 
-      - uses: actions/upload-artifact@v3.0.0
+      - uses: actions/upload-artifact@v3.1.0
         with:
           name: results
           path: alerts.xlsx
